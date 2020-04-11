@@ -1,3 +1,5 @@
+import React from "react";
+
 function TweetInput(props) {
     // 要素にアクセスするための参照を取得
     // ref.currentのデフォルト値はnullにしておく
@@ -34,3 +36,6 @@ function TweetInput(props) {
       </div>
     );
   }
+
+  export default TweetInput;
+  

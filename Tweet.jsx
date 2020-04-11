@@ -1,3 +1,5 @@
+import React from "react";
+
 function Tweet(props) {
     // Reactからこのコンポーネントの
     // like値と、likeの値をセットするための関数を取り出す
@@ -22,3 +24,6 @@ function Tweet(props) {
       </div>
     );
   }
+
+export default Tweet;
+  

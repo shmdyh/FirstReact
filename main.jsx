@@ -1,3 +1,9 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+import Timeline from "./Timeline";
+import TweetInput from "./TweetInput";
+
 function App() {
   // useStateでツイート配列を取得する
   // 初期値は今まで通り
