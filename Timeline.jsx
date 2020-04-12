@@ -1,3 +1,6 @@
+import React from "react";
+import Tweet from "./Tweet";
+
 function Timeline(props) {
     // propsからTweetのリストを作る
     const tweetList = props.tweets.map((tw) => (
@@ -13,3 +16,6 @@ function Timeline(props) {
     // 表示する
     return <div className="timeline">{tweetList}</div>;
   }
+
+  export default Timeline;
+  
